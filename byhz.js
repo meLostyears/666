@@ -13,7 +13,7 @@
 [rewrite_local]
 # >鲍鱼盒子18+
 #^https?:\/\/.+\/api\/(video\/report_item?|live\/room\/detail?|video\/related?|video\/detail|socialposts_info|my\/profile|video\/download) url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js
-^https?:\/\/.+\/api\/(video\/report_item?|live\/room\/detail?|video\/related?|video\/detail|social\/posts_info|social\/posts_list?|my\/profile|video\/download) url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js
+^https?:\/\/.+\/api\/(video\/report_item?|live\/room\/detail?|video\/related?|video\/detail|social\/posts_info|social\/comment_list?|social\/posts_list?|my\/profile|video\/download) url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/byhz.js
 ^https?://siajksslwiso\.anningsh\.com/report url reject-200
 
 [mitm] 
